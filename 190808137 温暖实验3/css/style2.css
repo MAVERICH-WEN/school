@@ -1,0 +1,55 @@
+body{
+	
+	font-size:16px;color:#156123;
+	
+	
+	
+	
+}
+h1{
+		text-align:center;font-family:'黑体'；
+		font-size：20px;
+		font-weight:bold;
+		color:#546213;
+		
+		
+	}
+	
+h2{
+	
+	font-family:'黑体'；
+	font-size：16px;
+	font-weight:normal;
+	color:#099;
+	
+	
+	
+}	
+p{line-height:2em;}
+
+.nav{
+	background-color:#9f0;
+	margin-left:15%;
+	margin-right:15%;
+	font-size:18px;
+	text-align:center;
+	
+	
+}
+.copyright{
+	align:center;
+	margin-bottom:10px;
+	
+}
+div.min{
+	min-height:700px;
+}
+
+div.sanjiao{
+                            width: 0px;
+                            height: 0px;
+                            border-top: 10px solid red;
+                            border-left: 10px solid transparent;
+                            border-right: 10px solid transparent;
+                   }
+
