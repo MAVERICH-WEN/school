@@ -1,0 +1,60 @@
+@import'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+html, body {
+font-family:sans-serif;
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+}
+
+.sidebar ul{
+    background-color: #27ae60;
+    float:left;
+    list-style:none;
+    width:200px;
+    height:100%;
+    overflow:hidden;
+   margin:0px;
+    padding:0;
+    transition:0.8s;
+}
+aside {
+margin:0;
+}
+
+    .sidebar ul li a{
+        text-decoration:none;
+        color:white;
+        height:80px;
+        width:100%;
+        line-height:80px;
+        font-size:20px;
+        text-align:center;
+        display:block;
+        transition:all 0.6s;
+    }
+        .sidebar ul li a:hover {
+            background: #2ecc71;
+            margin:0;
+            padding:0;
+        }
+
+
+.btn {
+    margin: 0px;
+    padding: 0 10px;
+    float: left;
+    font-family: Ionicons;
+    font-size: 50px;
+    color: #e67e22;
+    cursor:pointer;
+}
+
+
+
+.touxiang {
+
+width:50px;
+height:50px;
+
+}
