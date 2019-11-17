@@ -1,0 +1,28 @@
+﻿@charset 'utf-8';
+.bar { background:url('images/topbg.jpg') -30px -16px ; 
+       height:60px;width:100%;
+}
+.logo { position:absolute;left:20%;}
+.b {
+  width: 102px;
+    height: 33px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+    .b:hover {
+        background-image: url(images/btn2.png);
+        width: 102px;
+        height: 33px;
+    }
+.btn {
+    position:absolute;
+left:30%;
+
+}
+span {
+
+color:white;
+}
