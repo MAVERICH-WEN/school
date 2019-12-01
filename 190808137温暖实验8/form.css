@@ -1,0 +1,25 @@
+*{top:0;}
+form{
+background-color: rgba(44, 62, 80,0.7);
+border:solid 1px #636262;
+
+color:white;
+align-self: center;
+display: block;
+position:absolute;
+left:350px;
+right: 30%;
+width: auto;
+}
+body{
+background: url(iframe_bg.jpg);}
+span{
+	display:block;
+}
+input[type=text]{   }
+input[type=submit]{
+	position:absolute;left:45%;top:95%;
+	display:inline-block;
+}
+input[type=submit]+input[type=submit]{margin-left:50px;}
+.small input{  width:30px; }
