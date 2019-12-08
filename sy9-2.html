@@ -1,0 +1,101 @@
+﻿<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+*{padding:0;margin:0;}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[id=tab-one]{
+    position:absolute;
+    left:100px;
+}
+
+label {
+  background: #00ff21;
+
+  border-bottom:none;
+  padding: .7em 1em;
+  cursor: pointer;
+  z-index: -1;
+  margin-left: -1px;
+  border-radius:10px 10px 0 0; 
+}
+label:first-of-type {
+  margin-left: 100px;
+}
+div {
+  width: 100%;
+  background-color:#438006;
+  margin-top:-1px;
+  padding: 1em;
+ width:400px;
+ height:60%;
+  order: 1;
+  position:absolute;top:66px;left:40px;
+}
+input[type=radio], div {
+  display: none;
+}
+input[type=radio]:checked + label {
+  background: #438006;
+  border-bottom: 1px solid #fff;
+}
+input[type=radio]:checked + label + div {
+  display:block;
+}
+
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+
+<section>
+
+<input id="tab-one" type="radio" name="grp" checked="checked">
+<label for="tab-one">要闻</label>
+<div>
+  巴拉巴拉哔哩哔哩哔哩哔哩八六八
+</div>
+
+<input id="tab-two" type="radio" name="grp">
+<label for="tab-two">时政</label>
+<div>
+  哔哩哔哩哔来吧来吧来吧来吧两本
+</div>
+
+<input id="tab-three" type="radio" name="grp">
+<label for="tab-three">文化</label>
+<div>
+  巴拉巴拉干部！
+</div>
+
+</section>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
