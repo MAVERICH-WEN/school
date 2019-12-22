@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=" utf-8" />
+    <title>11-2</title>
+    <style>
+*{margin:0;padding:0;}
+#wrap{
+    width:500px;margin:50px auto;
+}
+#text{width:100%;height:150px;}
+#btn{
+    float:right;
+    width:100px;height:30px;cursor:pointer;
+}
+#list{
+    margin-top:50px;
+}
+#list li{
+    width:100%;margin-top:5px;line-height:30px;
+    border-bottom:1px solid  #000;
+    text-indent:25px;
+}
+    </style>
+</head>
+
+
+
+<body>
+    <div id=" wrap">
+        <textarea name="" id="text"></textarea>
+        <input type="button" id="btn" value=" commit"/>
+        <ul id="list">
+            
+        </ul>
+
+    </div>
+    <script>
+        let oBtn = document.getElementById("btn"),
+            oList = document.getElementById("list"),
+            oText = document.getElementById("text");
+        oBtn.onclick = function () {
+            let oValue = oText.value;
+            oList.innerHTML += "<li>" + oValue + "</li>"
+            oText.value = "";
+
+        }
+
+    </script>
+
+</body>
+</html>
